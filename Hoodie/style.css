@@ -33,9 +33,20 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  border: 2px solid var(--border);
+  
   font-family: var(--primary-font);
   font-weight: bold;
+  position: fixed;
+  z-index: 1000;
+ 
+  background-color: #f5f5f5;
+  border-radius: 50px;
+
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  
+  
 }
 
 .logo {
@@ -68,13 +79,14 @@ nav {
 
 /* Header */
 header {
-  border: 2px solid var(--border);
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   height: 90vh;
   margin-top: 2rem;
+  
 }
 
 .main-headings {
@@ -90,7 +102,7 @@ header {
 }
 
 .header-content {
-  border: 2px solid var(--border);
+  
 }
 
 .primary-headings {
@@ -138,7 +150,7 @@ header {
   border-radius: 50%;
   box-shadow: 4px 7px 5px 2px #bcbaba;
 
-  border: 2px solid var(--border);
+  
   padding: 10px;
 }
 .header-img {
@@ -153,7 +165,7 @@ header {
 
 /* Section-One */
 .section-one {
-  border: 2px solid var(--border);
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -171,7 +183,7 @@ header {
 /* Products */
 
 .products {
-  border: 2px solid var(--border);
+  
   margin-top: 10rem;
   display: flex;
   flex-wrap: wrap;
@@ -193,7 +205,7 @@ header {
 }
 
 .products-item-containers {
-  border: 2px solid var(--border);
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -203,7 +215,7 @@ header {
 }
 
 .item {
-  border: 2px solid var(--border);
+  
   margin: 20px;
 }
 
@@ -216,7 +228,7 @@ header {
 }
 
 .item-layer img {
-  border: 2px solid var(--border);
+  
   width: 250px;
   height: 300px;
 }
