@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+:root{
+  --main-color:#deab5f;
+  --primary-color:#312e2e;
+}
+
+/* Utility */
+
+button {
+  padding: 10px 30px;
+  background: var(--main-color);
+  border:none;
+  cursor:pointer;
+}
+
+/* Resets */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background : #100e0f
+}
+
+/* Nav-Start */
+
+nav {
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  color:#fff;
+
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:100;
+
+  padding:20px 0;
+
+  
+}
+
+
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+li a {
+  color : #fff;
+  text-decoration: none;
+  margin: 40px;
+  padding-bottom: 10px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+li a:hover {
+  border-bottom: 2px solid var(--main-color);
+}
+/* Nav-End */
+
+/* Header-start */
+header {
+background: url(./images/pexels-nao-triponez-129207.jpg);
+background-position: center;
+background-size: cover;
+height:100vh;
+font-family: "Cormorant Garamond", serif;
+font-weight: normal;
+
+/* Flexbox */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:#fff;
+text-align:center;
+position:relative;
+}
+
+.main-heading{
+  position: absolute;
+  top: 12rem;
+  font-size: 6rem;
+  word-spacing: 10px; 
+}
+
+.primary-heading{
+  position: absolute;
+  font-size: 6rem;
+  bottom:8rem;
+  margin-bottom: -40px;
+}
+
+.main-btn{
+  position:absolute;
+  bottom:2rem;
+  margin-top: 20px;
+  background:transparent;
+  background:var(--main-color);
+}
+
+/* Our Story Section-start */
+
+#our-story{
+  height: 100vh;
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  /* display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:500px; */
+
+
+  
+}
+
+.img{
+  width: 600px;
+  height: 600px;
+  background: url(./images/pexels-chitokan-2183027-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.title-style{
+  display: flex;
+  align-items: center;
+}
+
+.title{
+ font-family: "Cormorant Garamond", serif;
+  font-size: 4rem;
+  color: #fff;
+  transform: translateX(-100px);
+}
+
+.line{
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  transform: translateX(-120px);
+}
+
+.section-content p {
+  
+  max-width: 500px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  line-height: 20px;
+  margin: 20px 0;
+}
+/* Our Story Section-end */
+
+/* Coffee Start */
+
+.coffee-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.img-2{
+  width: 500px;
+  height: 500px;
+}
+
+.content-section p {
+  max-width: 500px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+.title-two{
+ font-family: "Cormorant Garamond", serif;
+ font-size: 4rem;
+ color: #fff;
+}
+
+.line-2{
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  transform: translateX(20px);
+}
+
+/* Coffee End */
+
+
+/* Products-Start */
+
+.products{
+  margin-top: 5rem;
+  
+}
+
+.title-three{
+  font-size: 4rem;
+  margin-left:10rem;
+  margin-top:10rem;
+  margin-bottom:10rem;
+}
+
+.cards{
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.card{
+  border: 2px solid var(--main-color);
+  padding:0 20px;
+  height: 400px;
+  width: 300px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -60px;   
+}
+
+.img-one{
+  background: url(./images/1.png);
+  background-position: center;
+  background-size: cover;
+}
+.img-two{
+  background: url(./images/2.png);
+  background-position: center;
+  background-size: cover;
+}
+.img-three{
+  background: url(./images/3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.card-title{
+  font-family: "Cormorant Garamond", serif;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.card .items p {
+  color:#fff;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Products-End */
+
+/* Footer */
+
+footer{
+padding: 4rem 2rem;
+display: grid;
+grid-template-columns: repeat(3 , 1fr);
+gap: 3rem;
+max-width: 1600px;
+margin: auto;
+}
+
+.heading-info{
+    color:white;
+    margin-bottom:1rem;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.heading-info span{
+    color:var(--main-color);
+    font-family: "Cormorant Garamond", serif;
+}
+
+.container p{
+    line-height:1.8;
+    color:#b8b8b8;
+     font-family: "Poppins", sans-serif;
+}
+.hr{
+    grid-column:1 / -1;
+    border:none;
+    height:1px;
+    background:#444;
+    margin-top:2rem;
+}
+
+.para{
+    grid-column:1 / -1;
+    text-align:center;
+    color:#888;
+    margin-top:1rem;
+     font-family: "Poppins", sans-serif;
+}
+
+.para span{
+    color:var(--main-color);
+    font-weight:bold;
+        font-family: "Cormorant Garamond", serif;
+}
