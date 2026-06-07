@@ -252,3 +252,74 @@ header {
 }
 
 /* Products-End */
+
+/* Customer-Section */
+.customer-reviews{
+  margin-top:7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.customer{
+  text-align: center;
+  border: 2px solid #534e4e;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+ 
+
+}
+
+.customer-headings{
+  font-family: var(--primary-font);
+  font-size:2rem;
+  text-align: center;
+  margin-top:10rem;
+  margin-bottom:20px;
+}
+
+.customer-description{
+  font-family: var(--primary-font);
+  font-size: 13px;
+  text-align: center;
+  max-width: 200px;
+  margin-top: 20px;
+  margin: 10px;
+}
+
+
+
+.customer-img .img{
+width: 200px;
+height: 200px;
+border-radius: 100%;
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+margin-bottom: 20px;
+border:2px solid var(--border);
+
+
+}
+
+.img-one{
+  background:url(./images/yogendra-singh-uWs_N5Dlyiw-unsplash.jpg)
+}
+
+.img-two{
+  background:url(./images/joshua-rondeau-xazIYnxpS2Q-unsplash.jpg)
+
+}
+.img-three{
+  background:url(./images/milan-popovic-kOnmHdLJTNI-unsplash.jpg)
+}
+
+
+
+
+
+
+
+/* Customer-Section-End */
