@@ -257,12 +257,13 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items:center;
+  margin-bottom: 5rem;
 }
+
 
 .customer{
   text-align: center;
-  border: 2px solid #534e4e;
-  margin: 20px;
+   margin: 20px;
   padding: 20px;
   border-radius: 10px;
  
@@ -275,6 +276,10 @@ header {
   text-align: center;
   margin-top:10rem;
   margin-bottom:20px;
+}
+
+.customer-name{
+  font-family: var(--main-font);
 }
 
 .customer-description{
@@ -313,10 +318,33 @@ border:2px solid var(--border);
   background:url(./images/milan-popovic-kOnmHdLJTNI-unsplash.jpg)
 }
 
-
-
-
-
-
-
 /* Customer-Section-End */
+
+
+/* Footer */
+footer{
+  background: #1F1E1E;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container .footer-heading{
+ font-family: var(--primary-font);
+ font-size: 2rem;
+  color: #f5f5f5e0;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.container .footer-primary-heading{
+  font-family: var(--primary-font);
+  font-size: 14px;
+  margin: 10px;
+  text-align: left;
+  color: #f5f5f5e0;
+}
+/* Footer-End */
+
+
